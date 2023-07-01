@@ -18,7 +18,7 @@ class Node {
         this->next = nullptr;
     }
 };
-  
+
 class LinkedList {
     public:
         std::unique_ptr<Node> head;
